@@ -15,6 +15,7 @@
 		52F740DA219551250097A272 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F740D9219551250097A272 /* main.m */; };
 		52F740E4219551250097A272 /* SPTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F740E3219551250097A272 /* SPTextViewTests.m */; };
 		52F740EF219551250097A272 /* SPTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F740EE219551250097A272 /* SPTextViewUITests.m */; };
+		52F740FF219551450097A272 /* SPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F740FE219551450097A272 /* SPTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		52F740EA219551250097A272 /* SPTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F740EE219551250097A272 /* SPTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTextViewUITests.m; sourceTree = "<group>"; };
 		52F740F0219551260097A272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F740FD219551450097A272 /* SPTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTextView.h; sourceTree = "<group>"; };
+		52F740FE219551450097A272 /* SPTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		52F740C9219551220097A272 /* SPTextView */ = {
 			isa = PBXGroup;
 			children = (
+				52F740FC219551450097A272 /* SPTextView */,
 				52F740CA219551220097A272 /* AppDelegate.h */,
 				52F740CB219551220097A272 /* AppDelegate.m */,
 				52F740CD219551220097A272 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				52F740F0219551260097A272 /* Info.plist */,
 			);
 			path = SPTextViewUITests;
+			sourceTree = "<group>";
+		};
+		52F740FC219551450097A272 /* SPTextView */ = {
+			isa = PBXGroup;
+			children = (
+				52F740FD219551450097A272 /* SPTextView.h */,
+				52F740FE219551450097A272 /* SPTextView.m */,
+			);
+			path = SPTextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 				52F740CF219551220097A272 /* ViewController.m in Sources */,
 				52F740DA219551250097A272 /* main.m in Sources */,
 				52F740CC219551220097A272 /* AppDelegate.m in Sources */,
+				52F740FF219551450097A272 /* SPTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MP8K63J94Y;
 				INFOPLIST_FILE = SPTextView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MP8K63J94Y;
 				INFOPLIST_FILE = SPTextView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
